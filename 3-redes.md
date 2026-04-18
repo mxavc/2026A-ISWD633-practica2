@@ -3,7 +3,7 @@
 Las redes son un componente fundamental que permite la comunicación entre contenedores, así como la comunicación de los contenedores con el mundo exterior.
 
 
-!\[Imagen](redes.PNG)
+![Imagen](redes.PNG)
 
 * Bridge: Esta es la red por defecto en Docker. Permite la comunicación entre contenedores en el mismo host. Cada contenedor conectado a la red bridge tiene una IP propia en la subred de la red bridge.
 
@@ -56,7 +56,8 @@ docker network ls
 
 ### Crear los contenedores y las redes que se presentan en el esquema. Usar para todos los contenedores la imagen de nginx:alpine
 
-!\[Imagen](esquema-ejercicio-redes.PNG)
+
+![Imagen](esquema-ejercicio-redes.PNG)
 
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
 
